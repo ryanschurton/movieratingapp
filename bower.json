@@ -1,0 +1,23 @@
+{
+  "name": "thumbscores",
+  "authors": [
+    "Ryan Schurton <ryan.schurton@gmail.com>"
+  ],
+  "description": "thumbrating website",
+  "main": "index.html",
+  "keywords": [
+    "score",
+    "rating",
+    "movies",
+    "media"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.6.1"
+  }
+}
