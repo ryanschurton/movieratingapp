@@ -1,15 +1,14 @@
         <div class="row">
-            <div class="col-md-3">
-                <p class="lead">Movie Name</p>
+                <p class="lead">{{ctrl.movieTitle}}</p>
                 <div class="row">
       				<img src="http://placehold.it/180x266" alt="..." >
  				</div>
-            </div>
+            
          </div>
 
           <div class="row top7">
-  			<button type="button" class="btn btn-success">  <i class="fa fa-thumbs-up" aria-hidden="true"></i></button>
-			<button type="button" class="btn btn-danger"> <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+  			<button type="button" class="btn btn-success" ng-click="ctrl.rateMovie('like')">  <i class="fa fa-thumbs-up" aria-hidden="true"></i></button>
+			<button type="button" class="btn btn-danger" ng-click="ctrl.rateMovie('dislike')"> <i class="fa fa-thumbs-down" aria-hidden="true"></i>
 </button>
 		</div>
 

@@ -5,20 +5,20 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('home', {
             url: '/',
-            templateUrl: 'views/home.html'
+            templateUrl: 'views/home.html',
+            controller: 'homeCtrl as ctrl'
         })
         .state('movie',{
             url:'/movie',
-            templateUrl: 'views/movie.html'
+            templateUrl: 'views/movie.html',
+            controller: 'movieCtrl as ctrl'
         })
         .state('user',{
             url:'/user',
-            templateUrl: 'views/user.html'
+            templateUrl: 'views/user.html',
+            controller: 'userCtrl as ctrl'
         })
-        .state('user',{
-            url:'/user',
-            templateUrl: 'views/user.html'
-        })
+
     });
         
         // // HOME STATES AND NESTED VIEWS ========================================

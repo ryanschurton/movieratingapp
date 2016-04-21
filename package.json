@@ -1,0 +1,29 @@
+{
+  "name": "thumbscores",
+  "version": "1.0.0",
+  "description": "movie rating website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanschurton/movieratingapp.git"
+  },
+  "keywords": [
+    "movie",
+    "scores",
+    "entertainment",
+    "media",
+    "rating"
+  ],
+  "author": "ryan schurton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanschurton/movieratingapp/issues"
+  },
+  "homepage": "https://github.com/ryanschurton/movieratingapp#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
